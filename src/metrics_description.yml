@@ -1,0 +1,10 @@
+TOTAL_COUNT:
+  action: diff
+  comparator: not_zero
+  prometheus_documentation: record count in total
+
+
+COUNT_ON_DATE:
+  action: diff
+  comparator: not_zero
+  prometheus_documentation: record count of each date
