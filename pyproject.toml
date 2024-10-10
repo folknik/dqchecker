@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dqchecker"
+authors = [
+    {name = "Alexey Fadeev", email = "fadeev1087@gmail.com"}
+]
+description = "Airflow package to check data quality"
+version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "psycopg2-binary",
+    "prometheus-client",
+    "pyyaml"
+]
